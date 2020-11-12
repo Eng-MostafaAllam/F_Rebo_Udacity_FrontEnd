@@ -3,7 +3,7 @@ body
     font-family: Arial;
     margin: 0;
     padding: 25;
-    background-color: #F7FBA4;
+    background-color: #D6DBDF;
 }
 *
 {
@@ -17,7 +17,7 @@ body
 }
 header
 {
-    background-color: #F5FA88;
+    background-color: #BFC9CA;
     padding: 30px;
 }
 header h1 
@@ -32,12 +32,12 @@ h2
     color: #000000;
     margin: 1,5 0px;
 }
-.left-colum
+.left_col
 {
     float: left;
     width: 25%;
 }
-.right-column
+.right-col
 {
  width: 25%;
  float: right;
@@ -46,27 +46,27 @@ h2
 .card
 {
 	padding: 20px;
-	background-color: #ffffff;
-     margin-top:20px;
+	background-color:#BFC9CA;
+    margin-top:20px;
 }
 .card img
 {
     width: 100%;
 }
-.right-column .card img
+.right_col .card img
 {
 	margin-bottom: 10px;
 }
 footer
 {
-	background-color: #dddddd;
+	background-color:#BFC9CA;
 	padding: 20px;
 	text-align: center;
 	margin-top: 20px;
 }
 /* this is for responsive for some device */
 @media(max-width:800px){
-	.left-column,.right-column{
+	.left_col , .right_col{
     width: 100%;
     padding: 0px;
 	}
