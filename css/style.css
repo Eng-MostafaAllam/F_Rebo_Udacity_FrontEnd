@@ -5,6 +5,7 @@ body
     padding: 25;
     background-color: #D6DBDF;
 }
+
 *
 {
     box-sizing: border-box;
@@ -35,13 +36,13 @@ h2
 .left_col
 {
     float: left;
-    width: 25%;
+    width: 70%;
 }
-.right-col
+.right_col
 {
- width: 25%;
- float: right;
- padding-left:20px;
+    width: 25%;
+    float: right;
+    padding-left:20px;
 }
 .card
 {
@@ -59,16 +60,31 @@ h2
 }
 footer
 {
-	background-color:#BFC9CA;
-	padding: 20px;
+    background-color:#BFC9CA;
+    padding: 20px;
 	text-align: center;
 	margin-top: 20px;
 }
+.Row_so
+{
+    align-items: row;
+    justify-content: space-around;
+
+}
+.Row_so img
+{
+    width: 30px;
+    height: 30px;
+}
+
+
 /* this is for responsive for some device */
-@media(max-width:800px){
-	.left_col , .right_col{
-    width: 100%;
-    padding: 0px;
+@media(max-width:800px)
+{
+    .left_col , .right_col
+    {
+        width: 100%;
+        padding: 0px;
 	}
 }
 
