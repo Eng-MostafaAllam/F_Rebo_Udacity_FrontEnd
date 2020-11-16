@@ -20,6 +20,13 @@ header
 {
     background-color: #BFC9CA;
     padding: 30px;
+    align-items: center;
+}
+header nav 
+{
+    text-align: center;
+    padding: 5px; 
+    justify-content: space-between 5px;
 }
 header h1 
 {
