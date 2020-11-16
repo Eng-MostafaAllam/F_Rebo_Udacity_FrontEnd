@@ -1,0 +1,26 @@
+p
+{
+    text-align: center;
+    text-decoration: underline;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 12px;
+}
+.but_blog
+{
+    background-color: azure;
+    width: 70px;
+    height: 40px;
+    border-radius: 15px;
+    align-items: center;
+    border: solid 1px ;
+    border-color: white;
+}
+/* this is for responsive for some device */
+@media(max-width:800px)
+{
+    .left_col , .right_col
+    {
+        width: 100%;
+        padding: 0px;
+	}
+}
