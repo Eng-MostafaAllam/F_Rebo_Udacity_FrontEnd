@@ -15,6 +15,13 @@ p
     border: solid 1px ;
     border-color: white;
 }
+footer
+{
+    background-color:#85929E;
+    padding: 20px;
+	text-align: center;
+	margin-top: 120px;
+}
 /* this is for responsive for some device */
 @media(max-width:800px)
 {

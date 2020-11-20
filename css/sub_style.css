@@ -23,9 +23,15 @@
   }
   
   /* Add some padding inside the card container */
-  .container {
+  .container
+{
     padding: 2px 16px;
-  }
+}
+.Para
+{
+  font-size: 16px;
+  text-align: start;
+}
 /* this is for responsive for some device */
 @media(max-width:800px)
 {
