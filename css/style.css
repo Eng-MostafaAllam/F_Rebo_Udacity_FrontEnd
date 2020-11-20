@@ -18,7 +18,7 @@ body
 }
 header
 {
-    background-color: #BFC9CA;
+    background-color: #85929E;
     padding: 30px;
     align-items: center;
 }
@@ -54,7 +54,7 @@ h2
 .card
 {
 	padding: 20px;
-	background-color:#BFC9CA;
+	background-color:#85929E;
     margin-top:20px;
 }
 .card img
@@ -67,10 +67,10 @@ h2
 }
 footer
 {
-    background-color:#BFC9CA;
+    background-color:#85929E;
     padding: 20px;
 	text-align: center;
-	margin-top: 20px;
+	margin-top: 120px;
 }
 .Row_so
 {
