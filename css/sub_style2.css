@@ -1,33 +1,16 @@
-p
-{
-    text-align: center;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 12px;
-    color: darkslategrey;
+.right_col{
+ width: 25%;
+ float: right;
+ padding-left:20px;
 }
-.but_blog
-{
-    background-color: azure;
-    width: 70px;
-    height: 40px;
-    border-radius: 15px;
-    align-items: center;
-    border: solid 1px ;
-    border-color: white;
+
+.card{
+	padding: 20px;
+	background-color: #ffffff;
+ margin-top:20px;
 }
-footer
-{
-    background-color:#85929E;
-    padding: 20px;
-	text-align: center;
-	margin-top: 120px;
-}
-/* this is for responsive for some device */
-@media(max-width:800px)
-{
-    .left_col , .right_col
-    {
-        width: 100%;
-        padding: 0px;
-	}
+
+center img {
+    width:20%; 
+    height: 20%;
 }

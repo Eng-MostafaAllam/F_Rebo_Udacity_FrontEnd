@@ -1,3 +1,6 @@
+@import "sub_style.css";
+@import "sub_style1.css";
+@import "sub_style2.css";
 body
 {
     font-family: Arial;
@@ -32,8 +35,15 @@ header h1
 {
     text-align: center;
     font-size: 60px;
-    color: #000000;
+    color:beige;
     margin: 1.5 0p;
+}
+header h3
+{
+    text-align: center;
+    font-size: 60px;
+    color:burlywood;
+    margin: 1.5 0p; 
 }
 h2
 {
@@ -45,18 +55,7 @@ h2
     float: left;
     width: 70%;
 }
-.right_col
-{
-    width: 25%;
-    float: right;
-    padding-left:20px;
-}
-.card
-{
-	padding: 20px;
-	background-color:#85929E;
-    margin-top:20px;
-}
+
 .card img
 {
     width: 100%;
