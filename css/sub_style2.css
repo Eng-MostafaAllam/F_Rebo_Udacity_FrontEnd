@@ -1,13 +1,17 @@
-.right_col{
- width: 25%;
- float: right;
- padding-left:20px;
+.right_col
+{
+    width: 25%;
+    float: right;
+    padding-left:20px;
+    display: flex inline-table;
 }
 
-.card{
+.card
+{
 	padding: 20px;
 	background-color: #ffffff;
- margin-top:20px;
+    margin-top:20px;
+    display: grid;
 }
 
 center img {
