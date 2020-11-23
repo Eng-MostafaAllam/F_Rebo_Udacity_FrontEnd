@@ -54,6 +54,7 @@ h2
 {
     float: left;
     width: 70%;
+    display: flex;
 }
 
 .card img
